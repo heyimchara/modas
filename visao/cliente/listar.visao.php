@@ -34,7 +34,7 @@ and open the template in the editor.
         <?php endforeach; ?>
    </table> 
         <br>
-        <a href="./cliente/cadastro" class="btn btn-primary">Novo Cliente</a>       
+        <a href="./cliente/cadastro" class="btn btn-primary">Novo Cliente</a>     
         
     </body>
 </html>

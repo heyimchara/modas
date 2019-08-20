@@ -39,7 +39,6 @@ function cadastro(){
      }
       
    }else{
-       
        exibir("cliente/cadastro");
    } 
 }

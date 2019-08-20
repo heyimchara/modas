@@ -34,8 +34,10 @@ and open the template in the editor.
             Senha: <input type="password" name="senha" value="<?=@$cliente['senha']?>"><br><br>
             Tipo de usuario: <input type ="text" name="tipousuario" value="<?=@$cliente['tipousuario']?>"><br><br>
            
+           
             
             <button>Enviar</button>
+         
             <br><br>            
             <?php
             if(ehPost()){

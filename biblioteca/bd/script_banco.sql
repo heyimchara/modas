@@ -3,17 +3,6 @@ CREATE DATABASE basemodaslm;
 USE basemodaslm;
 
 
-CREATE TABLE cliente(
-cod_cliente int(11) auto_increment not null,
-nome varchar(60) not null,
-email varchar(60) not null,
-senha varchar(60) not null,
-cpf varchar(11) not null,
-dataNasc date not null,
-sexo varchar(60) not null,
-tipousuario varchar(5) not null,
-PRIMARY KEY (cod_cliente)
-);
 
 CREATE TABLE endereco(
 idEndereco int(11) auto_increment not null,
@@ -26,6 +15,18 @@ cidade varchar(60) not null,
 cep varchar(10) not null,
 PRIMARY KEY (idEndereco),
 FOREIGN KEY (cod_cliente) REFERENCES cliente (cod_cliente) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE cliente(
+cod_cliente int(11) auto_increment not null,
+nome varchar(60) not null,
+email varchar(60) not null,
+senha varchar(60) not null,
+cpf varchar(11) not null,
+dataNasc date not null,
+sexo varchar(60) not null,
+tipousuario varchar(5) not null,
+PRIMARY KEY (cod_cliente)
 );
 
 CREATE TABLE log_produto(

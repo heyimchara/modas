@@ -28,7 +28,7 @@
         <?php endforeach; ?>
    </table> 
         <br>
-        <a href="./endereco/adicionar" class="btn btn-primary">Novo Endereco</a>
+        <a href="./endereco/adicionar" class="btn btn-primary">Novo Endereco</a><br><br>
     </body>
 </html>
 

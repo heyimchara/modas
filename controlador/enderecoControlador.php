@@ -3,6 +3,7 @@
 require_once 'servico/validacaoServico.php';
 require_once 'modelo/enderecoModelo.php';
 
+
 function adicionar(){
     if (ehPost()){
         $logradouro = $_POST["logradouro"];
